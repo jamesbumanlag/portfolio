@@ -1,0 +1,116 @@
+
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.navbar{
+    position:relative;
+    width: 100%;
+    padding: 30px 0;
+    background-color: darkslateblue;
+    font-family: sans-serif;
+}
+
+
+nav h1{
+    
+    color: rgb(239, 216, 186);
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+}
+
+nav .menu-container{
+    position: relative;
+    top: 10px;
+    float: right;
+    margin-right: 30px;
+    
+
+}
+
+nav .menu-container a{
+    
+    color: rgb(239, 216, 186);
+    margin-left: 20px;
+    
+}
+
+.my-photo-container{
+    position: relative;
+    top: 50px;
+    display: inline-block;
+}
+
+.my-photo-container img{
+    height: 600px;
+    width: 750px;
+    position: relative;
+    
+}
+
+.quote-container{
+    box-sizing: border-box;
+    width: 700px;
+    height: 100px;
+    position: relative;
+    top: -150px;
+    margin-right: 40px;
+    color: darkslateblue;
+    float: right;
+    
+
+
+}
+
+.quote-container p{
+    font-style: italic;
+    position: absolute;
+    top: -150px;
+    font-size: 25px;
+    
+}
+
+.section-services{
+    margin: 150px 50px 50px 50px;
+}
+
+section .section-services h2{
+    color: darkslateblue;
+    
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+section .section-services ul{
+    color: darkslateblue;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+section .section-services p{
+    color: darkslateblue;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.skills{
+    margin-bottom: 50px;
+}
+
